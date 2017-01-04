@@ -4,7 +4,8 @@
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #000000;
-	font-size: 14px;
+	font-size: 16px;
+	margin: 0px;
 }
 
 .row {
@@ -14,7 +15,8 @@
 h1 {
 	text-align: center;
 	font-size: 175%;
-	margin: 15px;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
 .title {
@@ -44,15 +46,11 @@ h2 {
 }
 
 .section {
-	padding: 5px;
+	padding: 40px 10px 5px 10px;
 	border: 1px solid black;
 	background: #aaaaaa;
 	margin: 10px;
 	position:relative;
-}
-
-p {
-	margin: 30px 10px 5px 10px;
 }
 
 @media (min-width: 992px) {
